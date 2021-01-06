@@ -107,7 +107,9 @@ cd ~/Desktop
 
 Now we want to use the 'make directory' command (`mkdir`) that will contain all the folders and files we're going to be working with. You can choose your own name, or use:
 
-```mkdir Bioinformatics```
+```
+mkdir Bioinformatics
+```
 
 Now let's move ourselves into this directory:
 ```
