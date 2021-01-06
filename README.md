@@ -59,3 +59,15 @@ fi
 
 source $env_file
 ```
+
+This sets up your computer so that you will be able to work with Rstudio and github from home or at the Curie (behind the proxy). If you are working from home, either use a VPN to connect to the Curie network, or run the command `home` to turn off your proxy, or `work` to turn it back on.
+
+This is important as it will allow you to download and install libraries in R.
+
+### 2. Plotting LOH from varscan files
+
+##### 2.1 Get code from github
+
+```
+git clone https://github.com/nriddiford/alleleFreqs.git
+```
