@@ -66,7 +66,7 @@ This is important as it will allow you to download and install libraries in R.
 
 ### 2. Some basic command line navigation
 
-Now that you're set up to download files from behind the proxy, we can enter the world of the command line. Open iTerm2 and type the following, followed by enter:
+Now that you're set up to download files from behind the proxy, we can enter the world of the command line. Open iTerm2 and type the following, followed by `return`:
 
 ```
 echo "hello world"
