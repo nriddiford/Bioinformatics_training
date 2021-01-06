@@ -2,19 +2,19 @@
 
 ## Part I - Weclome to the Jungle
 
-### Getting set up
+### 1. Getting set up
 
-##### Download & install R Studio
+##### 1.1 Download & install R Studio
 *  https://rstudio.com/products/rstudio/download/
 
-##### Download & install Atom
+##### 1.2 Download & install Atom
 *  https://atom.io/download/mac
 
-##### Download & install iTerm2
+##### 1.3 Download & install iTerm2
 *  https://iterm2.com
 *  Make sure you pin this to your dock!
 
-#### Configure proxies
+##### 1.4 Configure proxies
 Open iTerm2 and copy and paste the following into the console:
 
 ```{bash}
