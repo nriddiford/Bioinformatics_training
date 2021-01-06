@@ -275,7 +275,9 @@ Have a quick look at `bungles.txt` and see if contains what you expected!
 less bungles.txt
 ```
 
-To clean up, let's remove (`rm`) all files that whose **name** contains the string `lines` and have the extension `.txt` using the `expression` `*lines*.txt`. This translates "find files whose name contains `lines`, which can be followed or preceeded by anything (`*`) but ends in `.txt`" **Be careful with `rm` - there's no `trash` on the command line. Once a file's deleted, it's deleted.
+To clean up, let's remove (`rm`) all files that whose **name** contains the string `lines` and have the extension `.txt` using the `expression` `*lines*.txt`. This translates "find files whose name contains `lines`, which can be followed or preceeded by anything (`*`) but ends in `.txt`"
+
+**Be careful with `rm` - there's no `trash` on the command line. Once a file's deleted, it's deleted.**
 
 ```
 rm *lines*.txt
