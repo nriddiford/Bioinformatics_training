@@ -4,17 +4,17 @@
 
 ### 1. Getting set up
 
-##### 1.1 Download & install R Studio
+#### 1.1 Download & install R Studio
 *  https://rstudio.com/products/rstudio/download/
 
-##### 1.2 Download & install Atom
+#### 1.2 Download & install Atom
 *  https://atom.io/download/mac
 
-##### 1.3 Download & install iTerm2
+#### 1.3 Download & install iTerm2
 *  https://iterm2.com
 *  Make sure you pin this to your dock!
 
-##### 1.4 Configure proxies
+#### 1.4 Configure proxies
 Open iTerm2 and copy and paste the following into the console:
 
 ```{bash}
@@ -66,7 +66,7 @@ This is important as it will allow you to download and install libraries in R.
 
 ### 2. Some basic command line navigation
 
-##### 2.1 Hello world
+#### 2.1 Hello world
 Now that you're set up to download files from behind the proxy, we can enter the world of the command line. Open iTerm2 and type the following and then press `return`:
 
 ```
@@ -78,7 +78,7 @@ This is you using the command line! When you run programs either on your laptop 
 Here are some great resources for command line navigation:
 * [Terminal Cheat Sheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet#english-version) - handy guide in multiple languages!
 
-##### 2.2 Navigation
+#### 2.2 Navigation
 One of things you'll need to get comfortable with is navigating your computer by using the command line. To run any command/script type something in, and then press `return`. Fist, let's see where we are.
 
 Type `pwd` to see your current location. We're going to be downloading some folders (`'directories'`) from Github, so let's navigate to a sensible place. Run the following commands, line by line:
@@ -130,7 +130,7 @@ We got your disease
 # Save the file
 ```
 
-##### 2.3 Command line essentials
+#### 2.3 Command line essentials
 Just to get you a bit more familiar with using some common commands, let's mess around with this file a bit. Run the following commands, line by line:
 
 ```{bash}
@@ -194,7 +194,7 @@ cp five_lines.txt five_lines_2.txt
 
 ### 3. Getting code from Github
 
-##### 3.1 Get code from github
+#### 3.1 Get code from github
 Open iTerm2 and type the following:
 
 ```
