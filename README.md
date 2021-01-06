@@ -247,6 +247,41 @@ Now let's copy the contents of this file to a new file called `five_lines_2.txt`
 cp five_lines.txt five_lines_2.txt
 ```
 
+To finish up, let's go a search in `five_lines.txt` for a particular word, `everything` using the `grep` command:
+```
+grep "everything" five_lines.txt
+```
+
+This is also useful to search for the same word, or combination (`string`) of words in mutliple files. Let's look for `everything` in all of our `.txt` files:
+```
+grep "everything" *.txt
+```
+
+The `*` here serves as a wildcard, that will look for all files ending in `.txt`
+
+Maybe we want to count the number of times we find a certain `string`, like `jungle`. We can use the count (`-c`) argument in grep to do this:
+```
+grep -c "jungle" *.txt
+```
+
+Finally, let's try something a bit crazy. Let's use this `*` to run a command that will concatenate (`cat`) all `.txt` files in the current directory. We can then pipe this output to grep, where we can search for the string `jungle` using the argument `-o`. Finially, we'll pipe this output to another command `sed`, and subsititue all occurances of `j` with `b`, and then save this to a file called `bungles.txt`:
+
+```
+cat *.txt | grep -o "jungle" | sed 's/j/b/g' > bungles.txt
+```
+
+Have a quick look at `bungles.txt` and see if contains what you expected!
+```
+less bungles.txt
+```
+
+To clean up, let's remove (`rm`) all files that whose **name** contains the string `lines` and have the extension `.txt` using the `expression` `*lines*.txt`. This translates "find files whose name contains `lines`, which can be followed or preceeded by anything (`*`) but ends in `.txt`" **Be careful with `rm` - there's no `trash` on the command line. Once a file's deleted, it's deleted.
+
+```
+rm *lines*.txt
+```
+
+
 ### 3. Getting code from Github
 
 #### 3.1 Get code from github
