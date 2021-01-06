@@ -64,9 +64,23 @@ This sets up your computer so that you will be able to work with Rstudio and git
 
 This is important as it will allow you to download and install libraries in R.
 
-### 2. Plotting LOH from varscan files
+### 2. Some basic command line navigation
 
-##### 2.1 Get code from github
+Now that you're set up to download files from behind the proxy, we can enter the world of the command line. Open iTerm2 and type the following, followed by enter:
+
+```
+echo "hello world"
+```
+
+This is you using the command line! When you run programs either on your laptop or on the cluster, this is where you do it.
+
+Here are some great resources for command line navigation:
+* [Terminal Cheat Sheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet#english-version) - handy guide in multiple languages!
+
+### 3. Getting code from Github
+
+##### 3.1 Get code from github
+Open iTerm2 and type the following:
 
 ```
 git clone https://github.com/nriddiford/alleleFreqs.git
