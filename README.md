@@ -3,6 +3,7 @@
 * [1. Getting set up](https://github.com/nriddiford/Bioinformatics_training#1-getting-set-up)
 * [2. Command line basics](https://github.com/nriddiford/Bioinformatics_training#2-some-basic-command-line-navigation)
 * [3. Getting code from Github](https://github.com/nriddiford/Bioinformatics_training#3-getting-code-from-github)
+* [4. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training#4-working-with-rstudio)
 
 ## Part I - Weclome to the Jungle
 
@@ -329,3 +330,8 @@ git pull
 Note that `Bioinformatics_training` and `alleleFreqs` are separate repositories, so to update both you'll need to perform the same action in each repository.
 
 #### 3.3 Raise an issue on Github
+
+
+### 4 Woring with Rstudio
+
+#### 4.1 Open a project
