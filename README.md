@@ -335,3 +335,12 @@ Note that `Bioinformatics_training` and `alleleFreqs` are separate repositories,
 ### 4 Woring with Rstudio
 
 #### 4.1 Open a project
+
+
+To add:
+
+apm install atom-shell-commands
+
+control c
+
+| = option + Shift + L
