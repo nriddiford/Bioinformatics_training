@@ -295,11 +295,34 @@ Have a look at one of repositories on Github: https://github.com/nriddiford/alle
 
 Github is a place where we can store code-based projects, and track changes as they're made. This particular repository contains a few scripts that all involve working with allele frequencies. Click on the folder `script` to see some of the code, and click again on `alleleFreqs.R`. This code is written in `R` (`.R`), and we're going to use it in the next step to plot some varscan data.
 
- 
-
-
 Open iTerm2 and type the following:
+
+```
+cd ~/Desktop/Bioinformatics
+git clone https://github.com/nriddiford/Bioinformatics_training.git
+```
+
+This downloads everything in this repository into a directory of the same name on your local machine.
+Now, let's clone another repository `alleleFreqs`:
 
 ```
 git clone https://github.com/nriddiford/alleleFreqs.git
 ```
+
+Now open the `Bioinformatics` directory in atom. Opening a directory like this will give you a nice overview of the sort of files we have in our project. On the command line we use `.` as a shortcut indicate the `current working directory`:
+
+```
+atom .
+```
+
+Here, you should see the files that we created earlier, and two directories that we've just cloned `Bioinformatics_training` and `alleleFreqs`.
+
+#### 3.2 Update a repository
+
+If I make any changes to the code in either repository, I will write them on my local machine, and `push` the changes to Github. This will mean that the repository that you have just cloned is no longer the latest version. To update your repository to get the latest version run:
+
+```
+git pull
+```
+
+Note that `Bioinformatics_training` and `alleleFreqs` are separate repositories, so to update both you'll need to perform the same action in each repository.

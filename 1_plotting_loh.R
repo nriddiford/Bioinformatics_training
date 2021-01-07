@@ -2,7 +2,7 @@
 getwd()
 
 # Set the directory to the 'allelefreqs' github repository
-setwd('')
+setwd('alleleFreqs/')
 
 # load ('source') all of the code in 'allelefreqs.R':
 source('script/alleleFreqs.R')
@@ -27,9 +27,5 @@ View(three_lines)
 
 # Plot the allelefrequeny of snps for sample 'D106R13'
 plotFreq(df = R13_snps_df, sample = 'D106R13')
-
-#
-plotDen(df = R13_snps_df)
-
 
 
