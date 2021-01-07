@@ -1,11 +1,11 @@
-# Check where we are:
+# Check where we are [R version of pwd]:
 getwd()
 
-# Set the directory to the 'Bioinformatics' directory using setwd()
-# setwd()
+# Set the directory to the 'Bioinformatics' directory using setwd() [R version of cd]
+setwd("~/Desktop/Bioinformatics")
 
 # load ('source') all of the code in 'allelefreqs.R':
-source('alleleFreqs/script/alleleFreqs.R')
+source('../alleleFreqs/script/alleleFreqs.R')
 
 # Parse a varscan SNP file and save it into a dataframe called R13_snps_df
 R13_snps_df <- parseVarscan(file = 'data/varscan/D106R13.snp.hc')
