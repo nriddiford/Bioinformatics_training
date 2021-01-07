@@ -1,14 +1,14 @@
 # Check where we are:
 getwd()
 
-# Set the directory to the 'allelefreqs' github repository
-setwd('alleleFreqs/')
+# Set the directory to the 'Bioinformatics' directory using setwd()
+# setwd()
 
 # load ('source') all of the code in 'allelefreqs.R':
-source('script/alleleFreqs.R')
+source('alleleFreqs/script/alleleFreqs.R')
 
 # Parse a varscan SNP file and save it into a dataframe called R13_snps_df
-R13_snps_df <- parseVarscan(file = 'data/D106R13.snp.hc')
+R13_snps_df <- parseVarscan(file = 'data/varscan/D106R13.snp.hc')
 
 # Use the R function 'head()' to view the first 10 lines of 'R13_snps_df'
 head(R13_snps_df)
