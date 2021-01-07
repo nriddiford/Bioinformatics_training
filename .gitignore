@@ -2,3 +2,4 @@ data/
 *.txt
 *.Rproj*
 .Rproj.user
+.Rhistory
