@@ -1,5 +1,9 @@
 # Bardin lab Bioinformatics Bonanza
 
+* [1. Getting set up](https://github.com/nriddiford/Bioinformatics_training#1-getting-set-up)
+* [2. Command line basics](https://github.com/nriddiford/Bioinformatics_training#2-some-basic-command-line-navigation)
+* [3. Getting code from Github](https://github.com/nriddiford/Bioinformatics_training#3-getting-code-from-github)
+
 ## Part I - Weclome to the Jungle
 
 ### 1. Getting set up
@@ -283,10 +287,17 @@ To clean up, let's remove (`rm`) all files that whose **name** contains the stri
 rm *lines*.txt
 ```
 
-
 ### 3. Getting code from Github
 
 #### 3.1 Get code from github
+
+Have a look at one of repositories on Github: https://github.com/nriddiford/alleleFreqs
+
+Github is a place where we can store code-based projects, and track changes as they're made. This particular repository contains a few scripts that all involve working with allele frequencies. Click on the folder `script` to see some of the code, and click again on `alleleFreqs.R`. This code is written in `R` (`.R`), and we're going to use it in the next step to plot some varscan data.
+
+ 
+
+
 Open iTerm2 and type the following:
 
 ```
