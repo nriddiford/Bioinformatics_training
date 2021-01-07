@@ -4,9 +4,11 @@ getwd()
 # Set the directory to the 'Bioinformatics' directory using setwd() [R version of cd]
 setwd("~/Desktop/Bioinformatics")
 
-install.packages('ggplot2')
-install.packages('dplyr')
-install.packages('plyr')
+# install.packages('ggplot2')
+# install.packages('dplyr')
+# install.packages('plyr')
+
+install.packages('tidyverse')
 install.packages('data.table')
 
 # load ('source') all of the code in 'allelefreqs.R':
