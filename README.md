@@ -14,6 +14,10 @@
 
 #### 1.2 Download & install Atom
 *  https://atom.io/download/mac
+*  You'll also need to install the shell commands for atom. Either:
+*  Run `apm install atom-shell-commands` from the command line
+or
+* Open Atom, select the Atom menu (left of `file`) and click `Install Shell Commands`
 
 #### 1.3 Download & install iTerm2
 *  https://iterm2.com
@@ -86,7 +90,7 @@ Here are some great resources for command line navigation:
 #### 2.2 Navigation
 One of things you'll need to get comfortable with is navigating your computer by using the command line. To run any command/script type something in, and then press `return`. Fist, let's see where we are.
 
-Type `pwd` to see your current location. We're going to be downloading some folders (`'directories'`) from Github, so let's navigate to a sensible place. Run the following commands, line by line:
+Type `pwd` to see your current location. We're going to be downloading some folders ('directories') from Github, so let's navigate to a sensible place. Run the following commands, line by line:
 
 
 Navigate to your 'home' (`~`) directory using the 'change directory' command (`cd`):
@@ -100,14 +104,14 @@ Let's move to our desktop:
 cd Desktop/
 ```
 
-Check where we are by printing the woring directory (`pwd`):
-```
-pwd
-```
-
 We could have also done:
 ```
 cd ~/Desktop
+```
+
+Check where we are by printing the woring directory (`pwd`):
+```
+pwd
 ```
 
 Now we want to use the 'make directory' command (`mkdir`) that will contain all the folders and files we're going to be working with. You can choose your own name, or use:
@@ -133,7 +137,7 @@ Check where we are:
 pwd
 ```
 
-Make a text (.txt) file
+Make a text (`.txt`) file
 ```
 touch welcome.txt
 ```
@@ -172,7 +176,7 @@ Preview the file using the `more` command:
 more welcome.txt
 ```
 
-Preview the file using the `less` command:
+Preview the file using the `less` command (`q` to exit):
 ```
 less welcome.txt
 ```
@@ -192,14 +196,16 @@ This is an example of running a command with an argumnent (an option). You'll do
 man head
 ```
 
-This tells us that the `-n` is an argument that specifies how many lines to show, so `head -n 3 welcome.txt` will give us the first 3 lines of `welcome.txt`
+This tells us that the `-n` is an argument that specifies how many lines to show, so `head -n 3 welcome.txt` will give us the first 3 lines of `welcome.txt`.
 
-Let's see how many lines are in `welcome.txt` using `wc -l`:
+Press `q` to exit the manual.
+
+Now let's see how many lines are in `welcome.txt` using `wc -l`:
 ```
 wc -l welcome.txt
 ```
 
-Now, let's use a `pipe`, to send the output from our `head` command to the `wc` command:
+Now, let's use a `pipe` (`|`, on French keyboards this is `option` + `shift` + `l`), to send the output from our `head` command to the `wc` command:
 ```
 head -n 3 welcome.txt | wc -l
 ```
@@ -335,12 +341,3 @@ Note that `Bioinformatics_training` and `alleleFreqs` are separate repositories,
 ### 4 Woring with Rstudio
 
 #### 4.1 Open a project
-
-
-To add:
-
-apm install atom-shell-commands
-
-control c
-
-| = option + Shift + L
