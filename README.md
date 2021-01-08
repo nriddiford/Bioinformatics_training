@@ -4,7 +4,7 @@
 * [Part II - Working with Rstudio](part_2.md)
 
 #### Part I - Weclome to the Jungle
-[Supplementary material file 1](https://www.youtube.com/watch?v=o1tj2zJ2Wvg){:target="_blank"}
+[Supplementary material file 1](https://www.youtube.com/watch?v=o1tj2zJ2Wvg)
 
 #### Part II - Rstu-stu-studio
-[Supplementary material file 2](https://www.youtube.com/watch?v=r0qBaBb1Y-U){:target="_blank"}
+[Supplementary material file 2](https://www.youtube.com/watch?v=r0qBaBb1Y-U)

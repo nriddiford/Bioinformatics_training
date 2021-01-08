@@ -1,6 +1,6 @@
 # Bardin lab Bioinformatics Training - Day 1
 
-## Part I - [Weclome to the Jungle](https://www.youtube.com/watch?v=o1tj2zJ2Wvg){:target="_blank"}
+## Part I - [Weclome to the Jungle](https://www.youtube.com/watch?v=o1tj2zJ2Wvg)
 
 * [1. Getting set up](https://github.com/nriddiford/Bioinformatics_training#1-getting-set-up)
 * [2. Command line basics](https://github.com/nriddiford/Bioinformatics_training#2-some-basic-command-line-navigation)
