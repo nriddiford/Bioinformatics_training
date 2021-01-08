@@ -42,3 +42,7 @@ View(three_lines)
 plotFreq(df = R13_snps_df, sample = 'D106R13')
 
 
+
+# Lets try doing something sample-wide. 
+# all_freqs <- getAllFreqs(varScanDir = 'data/varscan/', )
+
