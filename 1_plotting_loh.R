@@ -2,12 +2,15 @@
 getwd()
 
 # Set the directory to the 'Bioinformatics' directory using setwd() [R version of cd]
-setwd("~/Desktop/Bioinformatics")
+# If you're in an R project, you'll already be in the right directory
+# setwd("~/Desktop/Bioinformatics")
 
+# Uncomment these to install 
 # install.packages('ggplot2')
 # install.packages('dplyr')
 # install.packages('plyr')
 
+# You intall packages using the 'install.package()' function. You only need to do this once
 install.packages('tidyverse')
 install.packages('data.table')
 
