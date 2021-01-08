@@ -14,7 +14,10 @@ getwd()
 install.packages('tidyverse')
 install.packages('data.table')
 
-# load ('source') all of the code in 'allelefreqs.R':
+# Note - once you've installed each package, you'll need to load that package using:
+library(ggplot2)
+
+# load ('source') all of the code in 'allelefreqs.R' (this will also load the libraries as well):
 source('../alleleFreqs/script/alleleFreqs.R')
 
 # Parse a varscan SNP file and save it into a dataframe called R13_snps_df
