@@ -326,7 +326,7 @@ Here, you should see the files that we created earlier, and two directories that
 
 #### 3.2 Update a repository
 
-If I make any changes to the code in either repository, I will write them on my local machine, and `push` the changes to Github. This will mean that the repository that you have just cloned is no longer the latest version. To update `pull` your `Bioinformatics_training` repository to get the latest version run:
+If the code in a Github repository is changed - maybe to fix a bug or to add a new feature - if will now be different to the repository that you've just cloned. To get `pull` any changes made in `Bioinformatics_training` and incorporate them into your clone, run:
 
 ```
 cd Bioinformatics_training
@@ -335,9 +335,13 @@ git pull
 
 Note that `Bioinformatics_training` and `alleleFreqs` are separate repositories, so to update both you'll need to perform the same action in each repository.
 
-#### 3.3 Raise an issue on Github
+#### 3.3 Perform the same thing in Atom
 
 
-### 4 Woring with Rstudio
+#### 3.4 Raise an issue on Github
+
+
+
+### 4 Working with Rstudio
 
 #### 4.1 Open a project
