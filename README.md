@@ -336,7 +336,14 @@ git pull
 Note that `Bioinformatics_training` and `alleleFreqs` are separate repositories, so to update both you'll need to perform the same action in each repository.
 
 #### 3.3 Perform the same thing in Atom
+One of the nice things about using something like Atom, is that it makes working with Github projects really easy. As we did before, let's open the whole directory `Bioinformatics_training`:
 
+```
+cd ~/Desktop/Bioinformatics/Bioinformatics_training
+atom .
+```
+
+![Github toolbar](images/github_toolbar.png)
 
 #### 3.4 Raise an issue on Github
 
