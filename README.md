@@ -385,5 +385,4 @@ open Bioinformatics_training.Rproj
 
 This will now open the project we started in exactly the same state that we left it in - very handy!
 
-
 #### 4.3
