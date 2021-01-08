@@ -3,3 +3,4 @@ data/
 *.Rproj*
 .Rproj.user
 .Rhistory
+plots/

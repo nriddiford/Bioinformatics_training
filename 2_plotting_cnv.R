@@ -24,3 +24,7 @@ cnvPlotteR::plotCoverage(counts_file = 'data/cnv_seq/B241R61.tagged.SC.hits.filt
 
 # Now plot
 cnvPlotteR::regionPlot(cnv_file = "data/cnv_seq/B241R61.tagged.SC.hits.filt-vs-B241R62.tagged.SC.hits.filt.window-500.minw-4.cnv")
+
+cnvPlotteR::regionPlot(cnv_file = "data/cnv_seq/B241R61.tagged.SC.hits.filt-vs-B241R62.tagged.SC.hits.filt.window-500.minw-4.cnv",
+                        ylim = c(-7,7), write = T)
+
