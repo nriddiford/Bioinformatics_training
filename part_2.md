@@ -1,6 +1,8 @@
 # Bardin lab Bioinformatics Training - Day 2
 
-## Part II - [Rstu-stu-studio](https://www.youtube.com/watch?v=r0qBaBb1Y-U){:target="_blank"}
+## Part II - [Rstu-stu-studio](https://www.youtube.com/watch?v=r0qBaBb1Y-U)
+
+<a href="https://www.youtube.com/watch?v=r0qBaBb1Y-U" target="_blank">Rstu-stu-studio</a>
 
 [1. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training#4-working-with-rstudio)
 
