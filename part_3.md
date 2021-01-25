@@ -2,7 +2,7 @@
 
 ## Part III - [Nextflow setup]()
 
-[1. Managing environments with conda](https://github.com/nriddiford/Bioinformatics_training#4-working-with-rstudio)
+[1. Managing environments with conda](https://github.com/nriddiford/Bioinformatics_training#part_3.md#1-managing-environments-with-conda)
 
 ### 1 Managing environments with conda
 [Conda](https://docs.conda.io/en/latest/) is an environment management system that we will be using in our Nextflow pipeline.
@@ -49,3 +49,7 @@ conda activate test_2
 python --version
 # Python 3.9.1
 ```
+
+### 2 Working on the server
+
+We're going to run most of our anayses on the curie Calcsub server. All you really need to understand about using the server is that it is essentially just room full of computers that we can access, so that we don't have to rely on the memory of our laptops. 
