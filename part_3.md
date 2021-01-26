@@ -120,22 +120,25 @@ We have already dealt with point `1`, but parellisation is an important concept 
 
 #### 3.1 Parallelisation
 
-At it's most basic level a bioinformatics pipeline is analagous to a cooking recipe, where you might proceed as follows:
+At it's most basic level a bioinformatics pipeline is analagous to a following a cooking recipe, where you might proceed as follows:
 
-|   | Cooking                       | Bioinformatics                               |
-|---|-------------------------------|----------------------------------------------|
-| 1 | Buy ingredients               | Install tools                                |
-| 2 | Boil water                    | Align reads to genome                        |
-| 3 | Cook pasta in water           | Detect SNVs                                  |
-| 4 | Drain pasta                   | Select somatic SNVs                          |
-| 5 | Chop tomatoes                 | Detect structural variants                   |
-| 6 | Chop garlic                   | Filter structural variants                   |
-| 7 | Add tomatoes, garlic to sauce | Select for somatic structural variants       |
-| 8 | Heat sauce                    | Annotate structural variants                 |
-| 9 | Mix sauce with pasta          | Combine somatic SNVS and structural variants |
+| Step | Time    | Cooking                                  | Bioinformatics                               |
+|------|---------|------------------------------------------|----------------------------------------------|
+| 1    | -       | Buy ingredients                          | Install tools                                |
+| 2    | 5 mins  | Boil water                               | Align reads to genome                        |
+| 3    | 10 mins | Cook pasta in water                      | Detect SNVs                                  |
+| 4    | 1 min   | Drain pasta                              | Select somatic SNVs                          |
+| 5    | 1 min   | Chop tomatoes                            | Detect structural variants                   |
+| 6    | 1 min   | Chop garlic                              | Filter structural variants                   |
+| 7    | 1 min   | Add tomatoes & garlic to tinned tomatoes | Select for somatic structural variants       |
+| 8    | 5 mins  | Cook sauce                               | Annotate structural variants                 |
+| 9    | 1 min   | Mix sauce with pasta                     | Combine somatic SNVS and structural variants |
 
+If we add up all the steps in our recipe/pipeline we can see that this will take 25 minutes to run. In practice though, when cooking a meal like this, you'd never wait for the pasta to be cooked (`steps 2-4`) before strating on the sauce. Normally, you would multi-task, and start `step 3` and `step 5` at the same time. This means that `steps 5-8` can take place entirely within `step 3`, reducing our run time to 16 minutes! This is parallelisation: Don't wait for one step to finish unless you have to (`step 9` requires that we have completed `steps 4 & 8`).
 
+The same is true for out bioinformatics pipeline: Why wait for the SNV detection to finish before we detect SVs when we can do them at the same time?
 
+Nextflow makes it really easy to do this. When we write pipelines, we can specify what steps rely on other steps, and it will automatically complete as many steps as possible as can be run independently.
 
 
 
