@@ -2,9 +2,9 @@
 
 ## Part III - [Nextflow setup]()
 
-[1. Managing environments with conda](https://github.com/nriddiford/Bioinformatics_training#part_3.md#1-managing-environments-with-conda)
-[2. Working on the server](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_3.md#2-working-on-the-server)
-[3. An introdution to nextflow](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_3.md#3-an-introdution-to-nextflow)
+* [1. Managing environments with conda](#1-managing-environments-with-conda)
+* [2. Working on the server](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_3.md#2-working-on-the-server)
+* [3. An introdution to nextflow](#3-an-introdution-to-nextflow)    
 
 ### 1 Managing environments with conda
 [Conda](https://docs.conda.io/en/latest/) is an environment management system that we will be using in our Nextflow pipeline.
