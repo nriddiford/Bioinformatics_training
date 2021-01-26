@@ -2,7 +2,10 @@
 
 ## Part II - [Rstu-stu-studio](https://www.youtube.com/watch?v=r0qBaBb1Y-U)
 
-[1. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training#4-working-with-rstudio)
+[1. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_2.md#1-working-with-rstudio)
+[2. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_3.md#2-working-on-the-server)
+
+
 
 ### 1 Working with Rstudio
 Like Atom, Rstudio is geared up to making things as easy as possibe. Whereas Atom is a text editor, where you can write code in lots of different languages, Rstudio is specically made for working with `R`.
@@ -36,4 +39,5 @@ open Bioinformatics_training.Rproj
 
 This will now open the project we started in exactly the same state that we left it in - very handy!
 
-#### 1.4
+#### 1.4 Continuing in Rstudio
+See video for continuing the session in Rstudio...
