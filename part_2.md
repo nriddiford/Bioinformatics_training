@@ -2,9 +2,8 @@
 
 ## Part II - [Rstu-stu-studio](https://www.youtube.com/watch?v=r0qBaBb1Y-U)
 
-* [1. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_2.md#1-working-with-rstudio)
-* [2. Working with Rstudio](https://github.com/nriddiford/Bioinformatics_training/blob/main/part_3.md#2-working-on-the-server)
-
+* [1. Working with Rstudio](#1-working-with-rstudio)
+* [2. Working with Rstudio](#2-working-on-the-server)
 
 
 ### 1 Working with Rstudio
